@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %} Inicio {% endblock %}
+
+   {% block content %}
+      <div class="formulario">
+        <h1>Inicio de sesion</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de usuario</label>
+            </div>
+            <div class="contrasena">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <input type="submit" value="Inicar">
+            <div class="registrarse">
+                Quiere hacer el <a href="#">registro</a>
+            </div>
+        </form>
+    </div>
+
+   {% endblock %}
+
+
+
